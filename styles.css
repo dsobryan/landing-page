@@ -49,7 +49,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 90px;
+    padding: 60px;
     
 }
 .title-header {
@@ -92,6 +92,10 @@
 
 .quote-section {
     background-color: #E5E7EB;
+    padding: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
 }
 
 .quote-text {
@@ -105,8 +109,18 @@
     text-align: end;
 }
 
-.sign-up {
+.button {
+    background-color: #3882F6;
+    border-color: #E5E7EB;
+    color: #E5E7EB;
+    border-radius: 4px;
+}
 
+.sign-up-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #3882F6;
 }
 
 .footer {
@@ -115,7 +129,8 @@
 }
 
 .foot-text {
-    padding: 5px;
+    padding: 40px;
     color: #E5E7EB;
     text-align: center;
+    margin: 0;
 }
